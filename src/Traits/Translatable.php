@@ -1,11 +1,11 @@
 <?php
 
-namespace TCG\Voyager\Traits;
+namespace JMI\Voyager\Traits;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\Relation;
-use TCG\Voyager\Facades\Voyager;
-use TCG\Voyager\Translator;
+use JMI\Voyager\Facades\Voyager;
+use JMI\Voyager\Translator;
 
 trait Translatable
 {

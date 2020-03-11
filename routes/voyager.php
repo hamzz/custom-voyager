@@ -1,10 +1,10 @@
 <?php
 
-use TCG\Voyager\Events\Routing;
-use TCG\Voyager\Events\RoutingAdmin;
-use TCG\Voyager\Events\RoutingAdminAfter;
-use TCG\Voyager\Events\RoutingAfter;
-use TCG\Voyager\Models\DataType;
+use JMI\Voyager\Events\Routing;
+use JMI\Voyager\Events\RoutingAdmin;
+use JMI\Voyager\Events\RoutingAdminAfter;
+use JMI\Voyager\Events\RoutingAfter;
+use JMI\Voyager\Models\DataType;
 
 /*
 |--------------------------------------------------------------------------

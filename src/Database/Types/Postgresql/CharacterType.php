@@ -1,8 +1,8 @@
 <?php
 
-namespace TCG\Voyager\Database\Types\Postgresql;
+namespace JMI\Voyager\Database\Types\Postgresql;
 
-use TCG\Voyager\Database\Types\Common\CharType;
+use JMI\Voyager\Database\Types\Common\CharType;
 
 class CharacterType extends CharType
 {

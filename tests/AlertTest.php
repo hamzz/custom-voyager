@@ -1,9 +1,9 @@
 <?php
 
-namespace TCG\Voyager\Tests;
+namespace JMI\Voyager\Tests;
 
-use TCG\Voyager\Alert;
-use TCG\Voyager\Facades\Voyager;
+use JMI\Voyager\Alert;
+use JMI\Voyager\Facades\Voyager;
 
 class AlertTest extends TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace TCG\Voyager\Http\Middleware;
+namespace JMI\Voyager\Http\Middleware;
 
 use App\User;
 use Closure;

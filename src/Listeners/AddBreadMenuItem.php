@@ -1,11 +1,11 @@
 <?php
 
-namespace TCG\Voyager\Listeners;
+namespace JMI\Voyager\Listeners;
 
-use TCG\Voyager\Events\BreadAdded;
-use TCG\Voyager\Facades\Voyager;
-use TCG\Voyager\Models\Menu;
-use TCG\Voyager\Models\MenuItem;
+use JMI\Voyager\Events\BreadAdded;
+use JMI\Voyager\Facades\Voyager;
+use JMI\Voyager\Models\Menu;
+use JMI\Voyager\Models\MenuItem;
 
 class AddBreadMenuItem
 {

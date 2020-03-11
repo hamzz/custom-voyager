@@ -1,6 +1,6 @@
 <?php
 
-namespace TCG\Voyager\Alert\Components;
+namespace JMI\Voyager\Alert\Components;
 
 class ButtonComponent extends AbstractComponent
 {

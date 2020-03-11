@@ -1,8 +1,8 @@
 <?php
 
-namespace TCG\Voyager\Database\Types\Postgresql;
+namespace JMI\Voyager\Database\Types\Postgresql;
 
-use TCG\Voyager\Database\Types\Common\DoubleType;
+use JMI\Voyager\Database\Types\Common\DoubleType;
 
 class DoublePrecisionType extends DoubleType
 {

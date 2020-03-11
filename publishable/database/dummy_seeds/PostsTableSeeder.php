@@ -1,12 +1,12 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use TCG\Voyager\Models\DataRow;
-use TCG\Voyager\Models\DataType;
-use TCG\Voyager\Models\Menu;
-use TCG\Voyager\Models\MenuItem;
-use TCG\Voyager\Models\Permission;
-use TCG\Voyager\Models\Post;
+use JMI\Voyager\Models\DataRow;
+use JMI\Voyager\Models\DataType;
+use JMI\Voyager\Models\Menu;
+use JMI\Voyager\Models\MenuItem;
+use JMI\Voyager\Models\Permission;
+use JMI\Voyager\Models\Post;
 
 class PostsTableSeeder extends Seeder
 {
@@ -23,8 +23,8 @@ class PostsTableSeeder extends Seeder
                 'display_name_singular' => __('voyager::seeders.data_types.post.singular'),
                 'display_name_plural'   => __('voyager::seeders.data_types.post.plural'),
                 'icon'                  => 'voyager-news',
-                'model_name'            => 'TCG\\Voyager\\Models\\Post',
-                'policy_name'           => 'TCG\\Voyager\\Policies\\PostPolicy',
+                'model_name'            => 'JMI\\Voyager\\Models\\Post',
+                'policy_name'           => 'JMI\\Voyager\\Policies\\PostPolicy',
                 'controller'            => '',
                 'generate_permissions'  => 1,
                 'description'           => '',

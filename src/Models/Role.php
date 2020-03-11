@@ -1,10 +1,10 @@
 <?php
 
-namespace TCG\Voyager\Models;
+namespace JMI\Voyager\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use TCG\Voyager\Facades\Voyager;
-use TCG\Voyager\Traits\HasRelationships;
+use JMI\Voyager\Facades\Voyager;
+use JMI\Voyager\Traits\HasRelationships;
 
 class Role extends Model
 {

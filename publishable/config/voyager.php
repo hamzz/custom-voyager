@@ -32,7 +32,7 @@ return [
     */
 
     'controllers' => [
-        'namespace' => 'TCG\\Voyager\\Http\\Controllers',
+        'namespace' => 'JMI\\Voyager\\Http\\Controllers',
     ],
 
     /*
@@ -59,7 +59,7 @@ return [
     |
     */
 
-    'assets_path' => '/vendor/tcg/voyager/assets',
+    'assets_path' => '/vendor/jmi/voyager/assets',
 
     /*
     |--------------------------------------------------------------------------

@@ -1,11 +1,11 @@
 <?php
 
-namespace TCG\Voyager\Models;
+namespace JMI\Voyager\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
-use TCG\Voyager\Events\MenuDisplay;
-use TCG\Voyager\Facades\Voyager;
+use JMI\Voyager\Events\MenuDisplay;
+use JMI\Voyager\Facades\Voyager;
 
 /**
  * @todo: Refactor this class by using something like MenuBuilder Helper.

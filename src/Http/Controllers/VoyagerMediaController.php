@@ -1,13 +1,13 @@
 <?php
 
-namespace TCG\Voyager\Http\Controllers;
+namespace JMI\Voyager\Http\Controllers;
 
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use Intervention\Image\Facades\Image;
 use League\Flysystem\Plugin\ListWith;
-use TCG\Voyager\Facades\Voyager;
+use JMI\Voyager\Facades\Voyager;
 
 class VoyagerMediaController extends Controller
 {

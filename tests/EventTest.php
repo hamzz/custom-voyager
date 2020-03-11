@@ -1,25 +1,25 @@
 <?php
 
-namespace TCG\Voyager\Tests;
+namespace JMI\Voyager\Tests;
 
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Storage;
-use TCG\Voyager\Events\BreadAdded;
-use TCG\Voyager\Events\BreadDataAdded;
-use TCG\Voyager\Events\BreadDataDeleted;
-use TCG\Voyager\Events\BreadDataUpdated;
-use TCG\Voyager\Events\BreadDeleted;
-use TCG\Voyager\Events\BreadImagesDeleted;
-use TCG\Voyager\Events\BreadUpdated;
-use TCG\Voyager\Events\FileDeleted;
-use TCG\Voyager\Events\TableAdded;
-use TCG\Voyager\Events\TableDeleted;
-use TCG\Voyager\Events\TableUpdated;
-use TCG\Voyager\Models\DataType;
-use TCG\Voyager\Models\Page;
+use JMI\Voyager\Events\BreadAdded;
+use JMI\Voyager\Events\BreadDataAdded;
+use JMI\Voyager\Events\BreadDataDeleted;
+use JMI\Voyager\Events\BreadDataUpdated;
+use JMI\Voyager\Events\BreadDeleted;
+use JMI\Voyager\Events\BreadImagesDeleted;
+use JMI\Voyager\Events\BreadUpdated;
+use JMI\Voyager\Events\FileDeleted;
+use JMI\Voyager\Events\TableAdded;
+use JMI\Voyager\Events\TableDeleted;
+use JMI\Voyager\Events\TableUpdated;
+use JMI\Voyager\Models\DataType;
+use JMI\Voyager\Models\Page;
 
 class EventTest extends TestCase
 {

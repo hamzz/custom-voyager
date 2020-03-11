@@ -1,9 +1,9 @@
 <?php
 
-namespace TCG\Voyager\Events;
+namespace JMI\Voyager\Events;
 
 use Illuminate\Queue\SerializesModels;
-use TCG\Voyager\Models\Menu;
+use JMI\Voyager\Models\Menu;
 
 class MenuDisplay
 {

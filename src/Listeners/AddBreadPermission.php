@@ -1,11 +1,11 @@
 <?php
 
-namespace TCG\Voyager\Listeners;
+namespace JMI\Voyager\Listeners;
 
-use TCG\Voyager\Events\BreadAdded;
-use TCG\Voyager\Facades\Voyager;
-use TCG\Voyager\Models\Permission;
-use TCG\Voyager\Models\Role;
+use JMI\Voyager\Events\BreadAdded;
+use JMI\Voyager\Facades\Voyager;
+use JMI\Voyager\Models\Permission;
+use JMI\Voyager\Models\Role;
 
 class AddBreadPermission
 {

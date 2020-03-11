@@ -1,8 +1,8 @@
 <?php
 
-namespace TCG\Voyager;
+namespace JMI\Voyager;
 
-use TCG\Voyager\Alert\Components\ComponentInterface;
+use JMI\Voyager\Alert\Components\ComponentInterface;
 
 class Alert
 {

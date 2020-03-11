@@ -1,10 +1,10 @@
 <?php
 
-namespace TCG\Voyager\Policies;
+namespace JMI\Voyager\Policies;
 
-use TCG\Voyager\Contracts\User;
-use TCG\Voyager\Facades\Voyager;
-use TCG\Voyager\Models\DataType;
+use JMI\Voyager\Contracts\User;
+use JMI\Voyager\Facades\Voyager;
+use JMI\Voyager\Models\DataType;
 
 class MenuItemPolicy extends BasePolicy
 {

@@ -1,20 +1,20 @@
 <?php
 
-namespace TCG\Voyager\Http\Controllers;
+namespace JMI\Voyager\Http\Controllers;
 
 use App\Models\CacheTableLog;
 use Carbon\Carbon;
-use TCG\Voyager\Exports\SpoutTableExport;
+use JMI\Voyager\Exports\SpoutTableExport;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use TCG\Voyager\Database\Schema\SchemaManager;
-use TCG\Voyager\Events\BreadDataAdded;
-use TCG\Voyager\Events\BreadDataDeleted;
-use TCG\Voyager\Events\BreadDataUpdated;
-use TCG\Voyager\Events\BreadImagesDeleted;
-use TCG\Voyager\Facades\Voyager;
-use TCG\Voyager\Http\Controllers\Traits\BreadRelationshipParser;
-use TCG\Voyager\Models\DataType;
+use JMI\Voyager\Database\Schema\SchemaManager;
+use JMI\Voyager\Events\BreadDataAdded;
+use JMI\Voyager\Events\BreadDataDeleted;
+use JMI\Voyager\Events\BreadDataUpdated;
+use JMI\Voyager\Events\BreadImagesDeleted;
+use JMI\Voyager\Facades\Voyager;
+use JMI\Voyager\Http\Controllers\Traits\BreadRelationshipParser;
+use JMI\Voyager\Models\DataType;
 use App\Repositories\AuditRepository as Audit;
 
 class VoyagerBaseController extends Controller

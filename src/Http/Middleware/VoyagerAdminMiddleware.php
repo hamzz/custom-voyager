@@ -1,10 +1,10 @@
 <?php
 
-namespace TCG\Voyager\Http\Middleware;
+namespace JMI\Voyager\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;
-use TCG\Voyager\Facades\Voyager;
+use JMI\Voyager\Facades\Voyager;
 
 class VoyagerAdminMiddleware
 {

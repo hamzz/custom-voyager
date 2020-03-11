@@ -1,6 +1,6 @@
 <?php
 
-namespace TCG\Voyager\Traits;
+namespace JMI\Voyager\Traits;
 
 use Illuminate\Support\Facades\DB;
 

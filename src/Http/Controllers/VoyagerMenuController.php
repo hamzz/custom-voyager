@@ -1,9 +1,9 @@
 <?php
 
-namespace TCG\Voyager\Http\Controllers;
+namespace JMI\Voyager\Http\Controllers;
 
 use Illuminate\Http\Request;
-use TCG\Voyager\Facades\Voyager;
+use JMI\Voyager\Facades\Voyager;
 
 class VoyagerMenuController extends Controller
 {

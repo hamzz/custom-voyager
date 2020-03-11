@@ -3,9 +3,9 @@
 <p align="center">
 <a href="https://travis-ci.org/the-control-group/voyager"><img src="https://travis-ci.org/the-control-group/voyager.svg?branch=master" alt="Build Status"></a>
 <a href="https://styleci.io/repos/72069409/shield?style=flat"><img src="https://styleci.io/repos/72069409/shield?style=flat" alt="Build Status"></a>
-<a href="https://packagist.org/packages/tcg/voyager"><img src="https://poser.pugx.org/tcg/voyager/downloads.svg?format=flat" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/tcg/voyager"><img src="https://poser.pugx.org/tcg/voyager/v/stable.svg?format=flat" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/tcg/voyager"><img src="https://poser.pugx.org/tcg/voyager/license.svg?format=flat" alt="License"></a>
+<a href="https://packagist.org/packages/jmi/voyager"><img src="https://poser.pugx.org/jmi/voyager/downloads.svg?format=flat" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/jmi/voyager"><img src="https://poser.pugx.org/jmi/voyager/v/stable.svg?format=flat" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/jmi/voyager"><img src="https://poser.pugx.org/jmi/voyager/license.svg?format=flat" alt="License"></a>
 <a href="https://github.com/larapack/awesome-voyager"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome Voyager"></a>
 </p>
 
@@ -33,7 +33,7 @@ Laravel Admin & BREAD System (Browse, Read, Edit, Add, & Delete), supporting Lar
 After creating your new Laravel application you can include the Voyager package with the following command: 
 
 ```bash
-composer require tcg/voyager
+composer require jmi/voyager
 ```
 
 ### 2. Add the DB Credentials & APP_URL

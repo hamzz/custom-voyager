@@ -1,11 +1,11 @@
 <?php
 
-namespace TCG\Voyager\Http\Middleware;
+namespace JMI\Voyager\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
-use TCG\Voyager\Facades\Voyager;
+use JMI\Voyager\Facades\Voyager;
 
 class VoyagerLaporanMiddleware
 {

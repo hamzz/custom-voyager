@@ -1,9 +1,9 @@
 <?php
 
-namespace TCG\Voyager\Database\Types\Postgresql;
+namespace JMI\Voyager\Database\Types\Postgresql;
 
 use Doctrine\DBAL\Platforms\AbstractPlatform;
-use TCG\Voyager\Database\Types\Type;
+use JMI\Voyager\Database\Types\Type;
 
 class TxidSnapshotType extends Type
 {

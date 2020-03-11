@@ -1,6 +1,6 @@
 <?php
 
-namespace TCG\Voyager;
+namespace JMI\Voyager;
 
 use Arrilot\Widgets\Facade as Widget;
 use Illuminate\Database\Eloquent\Collection;
@@ -9,25 +9,25 @@ use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
 use Symfony\Component\HttpKernel\Exception\AccessDeniedHttpException;
-use TCG\Voyager\Actions\DeleteAction;
-use TCG\Voyager\Actions\EditAction;
-use TCG\Voyager\Actions\ViewAction;
-use TCG\Voyager\Events\AlertsCollection;
-use TCG\Voyager\FormFields\After\HandlerInterface as AfterHandlerInterface;
-use TCG\Voyager\FormFields\HandlerInterface;
-use TCG\Voyager\Models\Category;
-use TCG\Voyager\Models\DataRow;
-use TCG\Voyager\Models\DataType;
-use TCG\Voyager\Models\Menu;
-use TCG\Voyager\Models\MenuItem;
-use TCG\Voyager\Models\Page;
-use TCG\Voyager\Models\Permission;
-use TCG\Voyager\Models\Post;
-use TCG\Voyager\Models\Role;
-use TCG\Voyager\Models\Setting;
-use TCG\Voyager\Models\Translation;
-use TCG\Voyager\Models\User;
-use TCG\Voyager\Traits\Translatable;
+use JMI\Voyager\Actions\DeleteAction;
+use JMI\Voyager\Actions\EditAction;
+use JMI\Voyager\Actions\ViewAction;
+use JMI\Voyager\Events\AlertsCollection;
+use JMI\Voyager\FormFields\After\HandlerInterface as AfterHandlerInterface;
+use JMI\Voyager\FormFields\HandlerInterface;
+use JMI\Voyager\Models\Category;
+use JMI\Voyager\Models\DataRow;
+use JMI\Voyager\Models\DataType;
+use JMI\Voyager\Models\Menu;
+use JMI\Voyager\Models\MenuItem;
+use JMI\Voyager\Models\Page;
+use JMI\Voyager\Models\Permission;
+use JMI\Voyager\Models\Post;
+use JMI\Voyager\Models\Role;
+use JMI\Voyager\Models\Setting;
+use JMI\Voyager\Models\Translation;
+use JMI\Voyager\Models\User;
+use JMI\Voyager\Traits\Translatable;
 
 class Voyager
 {
@@ -315,7 +315,7 @@ class Voyager
 
             // Loop through all the packages and get the version of voyager
             foreach ($file->packages as $package) {
-                if ($package->name == 'tcg/voyager') {
+                if ($package->name == 'jmi/voyager') {
                     $this->version = $package->version;
                     break;
                 }

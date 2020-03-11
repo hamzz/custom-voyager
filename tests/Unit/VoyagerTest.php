@@ -1,10 +1,10 @@
 <?php
 
-namespace TCG\Voyager\Tests\Unit;
+namespace JMI\Voyager\Tests\Unit;
 
 use Illuminate\Support\Facades\Config;
-use TCG\Voyager\Facades\Voyager;
-use TCG\Voyager\Tests\TestCase;
+use JMI\Voyager\Facades\Voyager;
+use JMI\Voyager\Tests\TestCase;
 
 class VoyagerTest extends TestCase
 {
@@ -17,8 +17,8 @@ class VoyagerTest extends TestCase
     public function testDimmersReturnsCollectionOfConfiguredWidgets()
     {
         Config::set('voyager.dashboard.widgets', [
-            'TCG\\Voyager\\Tests\\Stubs\\Widgets\\AccessibleDimmer',
-            'TCG\\Voyager\\Tests\\Stubs\\Widgets\\AccessibleDimmer',
+            'JMI\\Voyager\\Tests\\Stubs\\Widgets\\AccessibleDimmer',
+            'JMI\\Voyager\\Tests\\Stubs\\Widgets\\AccessibleDimmer',
         ]);
 
         $dimmers = Voyager::dimmers();
@@ -35,9 +35,9 @@ class VoyagerTest extends TestCase
     public function testDimmersReturnsCollectionOfConfiguredWidgetsWhichShouldBeDisplayed()
     {
         Config::set('voyager.dashboard.widgets', [
-            'TCG\\Voyager\\Tests\\Stubs\\Widgets\\AccessibleDimmer',
-            'TCG\\Voyager\\Tests\\Stubs\\Widgets\\InAccessibleDimmer',
-            'TCG\\Voyager\\Tests\\Stubs\\Widgets\\InAccessibleDimmer',
+            'JMI\\Voyager\\Tests\\Stubs\\Widgets\\AccessibleDimmer',
+            'JMI\\Voyager\\Tests\\Stubs\\Widgets\\InAccessibleDimmer',
+            'JMI\\Voyager\\Tests\\Stubs\\Widgets\\InAccessibleDimmer',
         ]);
 
         $dimmers = Voyager::dimmers();

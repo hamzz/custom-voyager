@@ -1,12 +1,12 @@
 <?php
 
-namespace TCG\Voyager\Exports;
+namespace JMI\Voyager\Exports;
 
 use Maatwebsite\Excel\Concerns\FromQuery;
 use Maatwebsite\Excel\Concerns\Exportable;
-use TCG\Voyager\Models\DataRow;
-use TCG\Voyager\Models\DataType;
-use TCG\Voyager\Voyager;
+use JMI\Voyager\Models\DataRow;
+use JMI\Voyager\Models\DataType;
+use JMI\Voyager\Voyager;
 use Maatwebsite\Excel\Concerns\WithHeadings;
 use Maatwebsite\Excel\Concerns\ShouldAutoSize;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace TCG\Voyager\Exports;
+namespace JMI\Voyager\Exports;
 
-use TCG\Voyager\Models\DataRow;
-use TCG\Voyager\Models\DataType;
+use JMI\Voyager\Models\DataRow;
+use JMI\Voyager\Models\DataType;
 use Box\Spout\Writer\WriterFactory;
 use Box\Spout\Common\Type;
 use Box\Spout\Writer\Style\StyleBuilder;

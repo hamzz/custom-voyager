@@ -1,11 +1,11 @@
 <?php
 
-namespace TCG\Voyager\Models;
+namespace JMI\Voyager\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use TCG\Voyager\Facades\Voyager;
-use TCG\Voyager\Traits\HasRelationships;
-use TCG\Voyager\Traits\Translatable;
+use JMI\Voyager\Facades\Voyager;
+use JMI\Voyager\Traits\HasRelationships;
+use JMI\Voyager\Traits\Translatable;
 
 class Category extends Model
 {

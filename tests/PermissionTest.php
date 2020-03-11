@@ -1,11 +1,11 @@
 <?php
 
-namespace TCG\Voyager\Tests;
+namespace JMI\Voyager\Tests;
 
 use Illuminate\Support\Facades\Auth;
-use TCG\Voyager\Facades\Voyager;
-use TCG\Voyager\Models\Permission;
-use TCG\Voyager\Models\Role;
+use JMI\Voyager\Facades\Voyager;
+use JMI\Voyager\Models\Permission;
+use JMI\Voyager\Models\Role;
 
 class PermissionTest extends TestCase
 {

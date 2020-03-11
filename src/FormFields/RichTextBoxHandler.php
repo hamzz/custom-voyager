@@ -1,6 +1,6 @@
 <?php
 
-namespace TCG\Voyager\FormFields;
+namespace JMI\Voyager\FormFields;
 
 class RichTextBoxHandler extends AbstractHandler
 {

@@ -213,7 +213,7 @@
                             <div class="form-group">
                                 <label for="category_id">{{ __('voyager::post.category') }}</label>
                                 <select class="form-control" name="category_id">
-                                    @foreach(TCG\Voyager\Models\Category::all() as $category)
+                                    @foreach(JMI\Voyager\Models\Category::all() as $category)
                                         <option value="{{ $category->id }}"@if(isset($dataTypeContent->category_id) && $dataTypeContent->category_id == $category->id) selected="selected"@endif>{{ $category->name }}</option>
                                     @endforeach
                                 </select>

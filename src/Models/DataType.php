@@ -1,12 +1,12 @@
 <?php
 
-namespace TCG\Voyager\Models;
+namespace JMI\Voyager\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
-use TCG\Voyager\Database\Schema\SchemaManager;
-use TCG\Voyager\Facades\Voyager;
-use TCG\Voyager\Traits\Translatable;
+use JMI\Voyager\Database\Schema\SchemaManager;
+use JMI\Voyager\Facades\Voyager;
+use JMI\Voyager\Traits\Translatable;
 
 class DataType extends Model
 {
